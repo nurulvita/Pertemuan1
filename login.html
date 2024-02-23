@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>INI HALAMAN LOGIN</h1>  
+    <form action="login.php" method="post">
+        <label for="username">Username</label><br>
+        <input placeholder="Username Anda" name="username" id="username" required><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password"><br>
+        <label for="Angkatan">Angkatan</label><br>
+        <select name="angkatan" id="angkatan">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>  
+        </select><br><br>
+        <p for="gender">Gender</p>
+        <label for="remember">Laki - Laki</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="remember">Perempuan</label>
+        <input type="radio" name="gender" id="gender">
+        <br>
+        <br>
+        <label for="remember">Hobi</label><br><br>
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Berenang</label><br><br>
+
+        <button type="submit" value="Login"> SUBMIT </button>
+    </form>  
+</body>
+</html>
